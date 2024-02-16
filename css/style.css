@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-with-bg {
+    width: 80%;
+    margin: auto;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.btn {
+    color: white;
+    background-color: #E55473;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.subscriber-box {
+    padding: 80px 0px;
+    background-image: url("../bg.png");
+    background-size: cover;
+}
+input {
+    padding: 12px 150px;
+    width: auto;
+    border: none;
+}
