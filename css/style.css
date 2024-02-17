@@ -124,6 +124,29 @@ h5 {
 .img-box img{
     width: 100%;
 }
+.subscriber-box {
+    padding: 80px 0px;
+    background-color: lightblue;
+
+}
+input {
+    padding: 12px 150px;
+    width: auto;
+    border: none;
+    border-radius: 20px 0 0 20px;
+}
+.btn-s {
+    color: white;
+    background-color: #b90e0a;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    font-size: 16px;
+}
+.btn:hover {
+    background-color: red;
+    transition: .3s;
+}
 .footer {
     background-color: #070211;
     padding: 40px 0;
