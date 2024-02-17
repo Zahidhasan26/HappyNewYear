@@ -14,7 +14,7 @@ body {
 }
 .container {
     width: 80%;
-    margin: auto;
+    margin: 80px auto;
     /* padding: 80px 0; */
     text-align: center;
 }
@@ -104,6 +104,25 @@ h5 {
 .btn:hover {
     background-color: red;
     transition: .3s;
+}
+.portfolio-header {
+    text-align: start;
+    padding-bottom: 20px;
+}
+.portfolio-gallery {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.img-box {
+    width: 32%;
+}
+.img-box:hover {
+    scale: 1.1;
+    transition: .5s;
+}
+.img-box img{
+    width: 100%;
 }
 .footer {
     background-color: #070211;
