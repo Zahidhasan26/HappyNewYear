@@ -8,14 +8,11 @@ body {
     padding: 0;
 }
 
-.container-with-bg {
-    width: 80%;
-    margin: auto;
-}
+
 .container {
     width: 80%;
     margin: 80px auto;
-    /* padding: 80px 0; */
+    padding: 20px 0;
     text-align: center;
 }
 h3 {
@@ -26,7 +23,7 @@ h2{
 }
 h1{
     font-size: 52px;
-    line-height: 52px;
+    line-height: 46px;
 }
 h4 {
     font-size: 26px;
@@ -40,6 +37,9 @@ h5 {
 }
 .white {
     color: white;
+}
+.grey {
+    color: gray;
 }
 .banner {
     padding: 140px 0px;
@@ -104,6 +104,18 @@ h5 {
 .btn:hover {
     background-color: red;
     transition: .3s;
+}
+.bonus-box {
+    justify-content: space-between;
+}
+.bonus {
+    width: 30%;
+}
+.bonus-img img {
+    width: 80%;
+    padding: 10px;
+    border: 8px solid #b90e0a;
+    border-radius: 100%;
 }
 .portfolio-header {
     text-align: start;
